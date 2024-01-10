@@ -1,0 +1,4 @@
+<div *ngFor="let flashCardDeck of flashCardDecks">
+    <h2>{{ flashCardDeck.flashCardDeckName }}</h2>
+    <app-flash-card [flashCardList]="flashCardDeck.flashCardList"></app-flash-card>
+</div>

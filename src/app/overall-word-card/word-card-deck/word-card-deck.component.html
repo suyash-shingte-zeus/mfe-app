@@ -1,0 +1,4 @@
+<div *ngFor="let wordCardDeck of wordCardDecks">
+    <h2>{{ wordCardDeck.wordCardDeckName }}</h2>
+    <app-word-card [wordCardList]="wordCardDeck.wordCardList"></app-word-card>
+</div>
